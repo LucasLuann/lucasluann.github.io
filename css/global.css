@@ -16,11 +16,7 @@ li {
 ul {
   margin: 0px;
   padding: 0px;
-}
-
-li a {
   list-style: none;
-  text-decoration: none;
 }
 
 img {
