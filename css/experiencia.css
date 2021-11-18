@@ -39,7 +39,7 @@
   display: block;
   width: 4px;
   height: 20px;
-  background: linear-gradient(#b6f829, #67dd0a);
+  background: linear-gradient(#c883ea, #6e1c97);
   position: absolute;
   top: 20px;
   left: -4px;
@@ -80,6 +80,21 @@
   border-radius: 4px;
   background: #ffffff;
   padding: 5px 10px;
+}
+
+.botao {
+  max-width: 120px;
+  height: 40px;
+  background: #c883ea;
+  border-radius: 5px;
+  color: #6e1c97;
+  border: none;
+  box-shadow: 5px 5px 5px #ccc;
+}
+
+.botao a {
+  text-decoration: none;
+  font-weight: bold;
 }
 
 @media (max-width: 800px) {

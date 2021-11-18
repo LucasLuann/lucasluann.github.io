@@ -4,6 +4,10 @@ body {
   margin: 0px;
 }
 
+.botao {
+  font-family: "Fira Sans", Arial, sans-serif;
+}
+
 h1,
 h2,
 h3,
