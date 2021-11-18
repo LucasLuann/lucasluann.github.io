@@ -31,9 +31,17 @@
   color: #525252;
 }
 
+.header-menu a:hover {
+  color: #c883ea;
+}
+
 @media (max-width: 1000px) {
   .introducao h1 {
     font-size: 3rem;
+  }
+  .introducao h1::before {
+    width: 130px;
+    height: 500px;
   }
 }
 
@@ -46,7 +54,8 @@
     font-size: 2rem;
   }
   .introducao h1::before {
-    display: none;
+    width: 130px;
+    height: 500px;
   }
   .introducao p {
     font-size: 1.125rem;
@@ -62,5 +71,8 @@
   }
   .introducao p {
     font-size: 1.125rem;
+  }
+  .introducao h1::before {
+    display: none;
   }
 }
