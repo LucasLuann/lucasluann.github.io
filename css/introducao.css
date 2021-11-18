@@ -19,12 +19,11 @@
   content: "";
   display: block;
   width: 130px;
-  height: 100px;
-  background: url("/img/decoracaoo.svg") no-repeat center;
+  height: 600px;
+  background: url("/img/Rectangle\ 37.svg") no-repeat center;
   position: absolute;
-  top: -15px;
-  left: -40px;
-  z-index: -1;
+  top: -140px;
+  left: -80px;
 }
 
 .introducao p {
@@ -47,9 +46,7 @@
     font-size: 2rem;
   }
   .introducao h1::before {
-    width: 30px;
-    height: 10px;
-    left: 0px;
+    display: none;
   }
   .introducao p {
     font-size: 1.125rem;
