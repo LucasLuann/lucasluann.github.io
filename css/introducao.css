@@ -33,6 +33,7 @@
 
 .header-menu a:hover {
   color: #c883ea;
+  transition: 0.3s;
 }
 
 @media (max-width: 1000px) {

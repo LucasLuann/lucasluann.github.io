@@ -5,7 +5,7 @@
 
 .formacao-container {
   max-width: 1200px;
-  padding: 40px 20px;
+  padding: 120px 20px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -14,6 +14,7 @@
 
 .formacao .subtitulo {
   color: #000;
+  max-width: 5ch;
 }
 
 .formacao-texto {
@@ -95,4 +96,25 @@
 
 .idiomas h3::before {
   background: url("../img/548412561551938552\ 1.svg") no-repeat center center;
+}
+
+.formacao-extra span {
+  color: #8f8f8f;
+}
+
+@media (max-width: 800px) {
+  .formacao-container {
+    grid-template-columns: 1fr;
+    padding: 60px 20px;
+    gap: 40px;
+  }
+  .formacao .subtitulo {
+    color: #fff;
+  }
+  .formacao-texto {
+    font-size: 1.125rem;
+  }
+  .formacao-extra {
+    padding-left: 30px;
+  }
 }
