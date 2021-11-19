@@ -61,6 +61,9 @@
   .introducao p {
     font-size: 1.125rem;
   }
+  .introducao img {
+    display: none;
+  }
 }
 
 @media (max-width: 400px) {
