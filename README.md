@@ -4,5 +4,6 @@
 
 > Portfolio com a interface realizada no Figma e construído utilizando HTML5 e CSS3.
 
-## 🚀 Acesse o link para ter acesso ao projeto: https://lucasluann.github.io/profile-card/
+## 🚀 Acesse o link para ter acesso ao projeto: https://lucasluann.github.io/
+
 
