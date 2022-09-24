@@ -39,7 +39,7 @@
   display: block;
   width: 4px;
   height: 20px;
-  background: linear-gradient(#c883ea, #6e1c97);
+  background: linear-gradient(#57A7FF, #6C63FF);
   position: absolute;
   top: 20px;
   left: -4px;
@@ -88,9 +88,9 @@
   align-items: center;
   max-width: 100px;
   height: 40px;
-  background: #c883ea;
+  background: #57A7FF;
   border-radius: 5px;
-  color: #6e1c97;
+  color: #1509ff;
   box-shadow: 0px 3px 5px 0px #ccc;
   padding: 0px 10px;
   text-transform: uppercase;
@@ -100,7 +100,7 @@
 }
 
 .botao:hover {
-  background: #6e1c97;
+  background: #6C63FF;
   color: #fff;
   transition: 0.3s;
 }
@@ -114,12 +114,15 @@
     grid-template-columns: 1fr;
     gap: 40px;
   }
+
   .experiencia .subtitulo {
     color: #141414;
   }
+
   .experiencia-texto {
     font-size: 1.25rem;
   }
+
   .empresa-ano {
     position: initial;
     order: 1;
@@ -132,6 +135,7 @@
   .empresa {
     grid-template-columns: 1fr;
   }
+
   .empresa span {
     display: none;
   }

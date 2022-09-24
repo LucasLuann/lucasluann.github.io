@@ -65,7 +65,7 @@
   display: block;
   width: 4px;
   height: 20px;
-  background: linear-gradient(#c883ea, #6e1c97);
+  background: linear-gradient(#57A7FF, #6C63FF);
   position: absolute;
   left: -24px;
 }
@@ -108,12 +108,15 @@
     padding: 60px 20px;
     gap: 40px;
   }
+
   .formacao .subtitulo {
     color: #fff;
   }
+
   .formacao-texto {
     font-size: 1.125rem;
   }
+
   .formacao-extra {
     padding-left: 30px;
   }

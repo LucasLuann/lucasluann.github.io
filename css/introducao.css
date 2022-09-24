@@ -32,7 +32,7 @@
 }
 
 .header-menu a:hover {
-  color: #c883ea;
+  color: #6C63FF;
   transition: 0.3s;
 }
 
@@ -40,6 +40,7 @@
   .introducao h1 {
     font-size: 3rem;
   }
+
   .introducao h1::before {
     width: 130px;
     height: 500px;
@@ -51,16 +52,20 @@
     grid-template-columns: 1fr 1fr;
     gap: 40px;
   }
+
   .introducao h1 {
     font-size: 2rem;
   }
+
   .introducao h1::before {
     width: 140px;
     height: 500px;
   }
+
   .introducao p {
     font-size: 1.125rem;
   }
+
   .introducao img {
     display: none;
   }
@@ -70,12 +75,15 @@
   .introducao {
     grid-template-columns: 1fr;
   }
+
   .introducao img {
     display: none;
   }
+
   .introducao p {
     font-size: 1.125rem;
   }
+
   .introducao h1::before {
     display: none;
   }
