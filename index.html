@@ -24,7 +24,8 @@
   <main class="introducao">
     <img src="/img/ilustracao-boneco.svg" alt="Lobo Perfil">
     <div>
-      <h1>Desenvolvedor<br> Front End &<br> UX/UI Designer</h1>
+      <h1>Desenvolvedor 
+      Front End Jr.</h1>
       <p>Localizado em Cuiabá-MT 🔅 </p>
     </div>
   </main>
@@ -32,7 +33,7 @@
   <section class="experiencia" id="experiencia" aria-label="Experiência">
     <h2 class="subtitulo">Experiência</h2>
     <div>
-      <p class="experiencia-texto">Experiência com <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>JavaScript</strong>, <strong>Flutter</strong> e <strong>Figma</strong>.
+      <p class="experiencia-texto">Experiência com <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>JavaScript</strong> e <strong>ReactJS</strong>.
       </p>
 
       <div class="empresa">
@@ -127,6 +128,26 @@
       <p class="footer-copy">@LucasLuann.</p>
     </div>
   </footer>
+
+
+  <script>
+    function escreveLetra(elemento){
+      const textoArray = elemento.innerHTML.split('');
+      elemento.innerHTML = '';
+      textoArray.forEach((letra,i) => {
+        setTimeout(
+          () => {
+            elemento.innerHTML += letra
+          }, 75 * i
+        )
+      });
+    }
+
+
+
+    const titulo = document.querySelector('h1');
+    escreveLetra(titulo);
+  </script>
 
 </body>
 

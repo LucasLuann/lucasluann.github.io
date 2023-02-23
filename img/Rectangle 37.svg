@@ -2,7 +2,7 @@
 <rect y="275" width="275" height="8" transform="rotate(-90 0 275)" fill="url(#paint0_linear_324_249)" fill-opacity="0.81"/>
 <defs>
 <linearGradient id="paint0_linear_324_249" x1="137.5" y1="275" x2="137.5" y2="283" gradientUnits="userSpaceOnUse">
-<stop stop-color="#6800CF"/>
+<stop stop-color="#6C63FF"/>
 <stop offset="0.796875" stop-color="white" stop-opacity="0"/>
 </linearGradient>
 </defs>
