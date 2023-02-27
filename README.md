@@ -1,6 +1,6 @@
 # :diamonds: Projeto Portfólio
 
-[![portfolio.png](https://i.postimg.cc/bNSSGGx8/portfolio.png)](https://postimg.cc/2VmSMS9X)
+[![img-portfolio.png](https://i.postimg.cc/d0JHbc1n/img-portfolio.png)](https://postimg.cc/ZWDxNg6y)
 
 > Portfolio com a interface realizada no Figma e construído utilizando HTML5 e CSS3.
 
