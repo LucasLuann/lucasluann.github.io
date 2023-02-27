@@ -17,6 +17,7 @@
 
 .introducao h1::after {
   content: '|';
+  color: #57A7FF;
   margin-left: 5px;
   opacity: 1;
   animation: pisca .7s infinite;

@@ -28,6 +28,8 @@ function escreveLetra(elemento){
 
   sr.reveal('.formacao-container', { rotate: { x:1000, y:0, z:0},duration: 5000 })
 
+  sr.reveal('.faculdade', { rotate: { x:0, y:1000, z:0},duration: 5000 })
+
   sr.reveal('.footer-texto', { rotate: { x:1000, y:0, z:0},duration: 4000 })
 
   sr.reveal('.contato-footer', { rotate: { x:0, y:50, z:0},duration: 4000 })
