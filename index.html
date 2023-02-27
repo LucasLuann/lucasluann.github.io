@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
+  <script src="https://unpkg.com/scrollreveal"></script>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
 </head>
@@ -24,16 +25,17 @@
   <main class="introducao">
     <img src="/img/ilustracao-boneco.svg" alt="Lobo Perfil">
     <div>
-      <h1>Desenvolvedor 
-      Front End Jr.</h1>
-      <p>Localizado em Cuiabá-MT 🔅 </p>
+      <h1>Desenvolvedor
+        Front End Jr.</h1>
+      <p class="text-localizacao">Localizado em Cuiabá-MT 🔅 </p>
     </div>
   </main>
 
   <section class="experiencia" id="experiencia" aria-label="Experiência">
     <h2 class="subtitulo">Experiência</h2>
     <div>
-      <p class="experiencia-texto">Experiência com <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>JavaScript</strong> e <strong>ReactJS</strong>.
+      <p class="experiencia-texto">Experiência com <strong>HTML5</strong>, <strong>CSS3</strong>,
+        <strong>JavaScript</strong> e <strong>ReactJS</strong>.
       </p>
 
       <div class="empresa">
@@ -50,7 +52,8 @@
       <div class="empresa">
         <h3 class="empresa-titulo">Brafé</h3>
         <span class="empresa-titulo">Tecnologias Utilizadas</span>
-        <p class="empresa-texto">Projeto da origamid na qual aprendi a <strong>layoutar</strong> utilizando <strong>CSS3 puro</strong>, sem flexbox e gridlayout.
+        <p class="empresa-texto">Projeto da origamid na qual aprendi a <strong>layoutar</strong> utilizando <strong>CSS3
+            puro</strong>, sem flexbox e gridlayout.
         </p>
         <ul class="empresa-habilidades">
           <li>HTML5</li>
@@ -62,7 +65,8 @@
       <div class="empresa">
         <h3 class="empresa-titulo">Pousada Dev</h3>
         <span class="empresa-titulo">Tecnologias Utilizadas</span>
-        <p class="empresa-texto"><strong>Website</strong> utilizando somente <strong>HTML5</strong> e <strong>CSS3</strong>. Curso desenvolvido pela plataforma DevMedia.</p>
+        <p class="empresa-texto"><strong>Website</strong> utilizando somente <strong>HTML5</strong> e
+          <strong>CSS3</strong>. Curso desenvolvido pela plataforma DevMedia.</p>
         <ul class="empresa-habilidades">
           <li>HTML5</li>
           <li>CSS3</li>
@@ -78,7 +82,8 @@
 
       <div>
         <p class="formacao-texto">
-          Atualmente estou <strong>cursando</strong> o quinto semestre de <strong>Engenharia da Computação</strong> e o terceiro semestre de <strong>Análise e Desenvolvimento de sistemas</strong>.
+          Atualmente estou <strong>cursando</strong> o quinto semestre de <strong>Engenharia da Computação</strong> e o
+          terceiro semestre de <strong>Análise e Desenvolvimento de sistemas</strong>.
         </p>
 
         <ul class="faculdade-lista">
@@ -115,7 +120,8 @@
 
   <footer class="footer" id="contato">
     <div class="footer-container">
-      <p class="footer-texto"><span>Disponível</span> para novos projetos e novas experiências. Entre em contato para alinhar as ideias em mente 😁</p>
+      <p class="footer-texto"><span>Disponível</span> para novos projetos e novas experiências. Entre em contato para
+        alinhar as ideias em mente 😁</p>
       <ul class="contato-footer">
         <li>lucasluann10@gmail.com</li>
         <li>+55 65 99990-9348</li>
@@ -130,24 +136,7 @@
   </footer>
 
 
-  <script>
-    function escreveLetra(elemento){
-      const textoArray = elemento.innerHTML.split('');
-      elemento.innerHTML = '';
-      textoArray.forEach((letra,i) => {
-        setTimeout(
-          () => {
-            elemento.innerHTML += letra
-          }, 75 * i
-        )
-      });
-    }
-
-
-
-    const titulo = document.querySelector('h1');
-    escreveLetra(titulo);
-  </script>
+  <script src="/js/index.js"></script>
 
 </body>
 

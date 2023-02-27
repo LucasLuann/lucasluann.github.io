@@ -17,6 +17,7 @@
   max-width: 40ch;
   margin-bottom: 60px;
   color: #525252;
+  visibility: hidden;
 }
 
 .experiencia-texto strong {
@@ -32,6 +33,7 @@
   margin-bottom: 20px;
   border-radius: 4px;
   position: relative;
+  visibility: hidden;
 }
 
 .empresa::before {

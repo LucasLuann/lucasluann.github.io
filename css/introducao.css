@@ -38,9 +38,17 @@
   color: #525252;
 }
 
+.text-localizacao {
+  visibility: hidden;
+}
+
 .header-menu a:hover {
   color: #6C63FF;
   transition: 0.3s;
+}
+
+.introducao img {
+  visibility: hidden;
 }
 
 @media (max-width: 1000px) {
