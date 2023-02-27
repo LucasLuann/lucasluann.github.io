@@ -20,7 +20,9 @@ function escreveLetra(elemento){
 
   sr.reveal('.text-localizacao', { duration: 6000 })
 
-  sr.reveal('.experiencia-texto', { rotate: { x:1000, y:0, z:0},duration: 3000 })
+  sr.reveal('.experiencia-texto', { rotate: { x:1000, y:0, z:0},duration: 5000 })
+
+  sr.reveal('.subtitulo', { rotate: { x:1000, y:0, z:0},duration: 5000 })
 
   sr.reveal('.empresa', { rotate: { x:1000, y:0, z:0},duration: 3000 })
 
